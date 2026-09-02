@@ -928,10 +928,9 @@ i {
      width: 70%;
      margin: 0 auto;
      display: flex;
-     justify-content: center;
+     justify-content: space-between;
      padding: var(--space-xxl) 0;
      border-top: 1px solid rgba(255,255,255,0.2);
-     gap: var(--space-xxxl)
 }
 .footer .form-faq-wrapper {
      display: flex;
