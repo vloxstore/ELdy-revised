@@ -44,7 +44,7 @@ revealElementsscale.forEach(function(el) {
      observer.observe(el);
 });
 
-const footer = document.querySelector(".footer");
+const footer = document.querySelector(".form");
 const toFooter = document.querySelector(".to-footer");
 
 toFooter.addEventListener("click", function() {
@@ -87,7 +87,6 @@ const homeBtn2 = document.querySelector(".header-logo");
 
 homeBtn2.addEventListener("click", ()=> {
      const home = document.querySelector(".hero");
-
      home.scrollIntoView({behavior:"smooth"});
 })
 
