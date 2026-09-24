@@ -354,6 +354,9 @@ body::-webkit-scrollbar {
           gap: var(--space-md);
 
      }
+     .header-container .nav-screen .nav-link.active {
+          color: var(--ink-light);
+     }
      .header-container .dark-light-toggle {
      }
      .header-container .dark-light-toggle .moon {
@@ -411,6 +414,7 @@ body::-webkit-scrollbar {
      .header-container .nav-screen.show {
           display: flex;
      }
+     
 }
 
 @media (max-width: 800px) {
@@ -1283,5 +1287,4 @@ i {
           text-align: center;
      }
 }
-
 
